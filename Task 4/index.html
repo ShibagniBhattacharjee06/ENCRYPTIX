@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Dr. A.P.J. Abdul Kalam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="text-vertical-center">
+            <h1 class="title">Dr. A.P.J. Abdul Kalam</h1>
+            <a href="#about">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-angle-double-down fa-stack-1x"></i>
+                </span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="container">
+            <div class="row">
+                <h1 class="page-header">About</h1>
+                <div class="col-md-8">
+                    <p><strong>Dr. Avul Pakir Jainulabdeen Abdul Kalam</strong> (15 October 1931 – 27 July 2015) was an Indian aerospace scientist and the 11th President of India. He played a leading role in the development of India's missile and nuclear weapons programs. Known as the "Missile Man of India," he was also a beloved teacher and an inspiration to millions.</p>
+                    <p>Dr. Kalam's career started in the Indian Space Research Organisation (ISRO), where he was a key figure in the country's space program. Later, he moved to the Defence Research and Development Organisation (DRDO), where he developed India's ballistic missile systems. He served as President of India from 2002 to 2007, during which time he continued to inspire and mentor young people.</p>
+                    <p>To learn more about Dr. A.P.J. Abdul Kalam, see his page at <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">Wikipedia</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" alt="Dr. A.P.J. Abdul Kalam" src="abdul_kalam.jpg">
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="container">
+            <h1 class="page-header">Achievements</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h4><strong>Missile Development</strong></h4>
+                    <img class="achievement-photo img-responsive" src="missile_development.jpg" alt="Missile Development" onclick="toggleInfo('missile-info')">
+                    <div id="missile-info" class="info">
+                        <p>Dr. Kalam played a pivotal role in developing India's missile programs, including the Agni and Prithvi missiles.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4><strong>ISRO Contributions</strong></h4>
+                    <img class="achievement-photo img-responsive" src="isro_contributions.jpg" alt="ISRO Contributions" onclick="toggleInfo('isro-info')">
+                    <div id="isro-info" class="info">
+                        <p>Dr. Kalam was a key figure in India's space program, particularly in developing the SLV-III, the satellite launch vehicle that successfully deployed the Rohini satellite in near-Earth orbit in 1980.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4><strong>Presidency</strong></h4>
+                    <img class="achievement-photo img-responsive" src="presidency.jpg" alt="Presidency" onclick="toggleInfo('presidency-info')">
+                    <div id="presidency-info" class="info">
+                        <p>Dr. Kalam served as the 11th President of India from 2002 to 2007, during which he was known as the "People's President" and was admired for his humility and vision for the nation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Honors and Awards Section -->
+        <section id="honors-awards" class="container">
+            <h1 class="page-header">Honors and Awards</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h4><strong>Bharat Ratna</strong></h4>
+                    <img class="achievement-photo img-responsive" src="bharat_ratna.jpg" alt="Bharat Ratna" onclick="toggleInfo('bharat-ratna-info')">
+                    <div id="bharat-ratna-info" class="info">
+                        <p>India's highest civilian award, received in 1997 for his contributions to science and technology.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4><strong>Padma Vibhushan</strong></h4>
+                    <img class="achievement-photo img-responsive" src="padma_vibhushan.jpg" alt="Padma Vibhushan" onclick="toggleInfo('padma-vibhushan-info')">
+                    <div id="padma-vibhushan-info" class="info">
+                        <p>India's second-highest civilian award, received in 1990 for his outstanding contributions.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4><strong>Padma Bhushan</strong></h4>
+                    <img class="achievement-photo img-responsive" src="padma_bhushan.jpg" alt="Padma Bhushan" onclick="toggleInfo('padma-bhushan-info')">
+                    <div id="padma-bhushan-info" class="info">
+                        <p>India's third-highest civilian award, received in 1981 for his exceptional service to the nation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Books and Publications Section -->
+        <section id="books-publications" class="container">
+            <h1 class="page-header">Books and Publications</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h4><strong>Wings of Fire</strong></h4>
+                    <img class="achievement-photo img-responsive" src="wings_of_fire.jpg" alt="Wings of Fire" onclick="toggleInfo('wings-fire-info')">
+                    <div id="wings-fire-info" class="info">
+                        <p>An autobiography that became a bestseller, inspiring countless readers.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4><strong>Ignited Minds</strong></h4>
+                    <img class="achievement-photo img-responsive" src="ignited_minds.jpg" alt="Ignited Minds" onclick="toggleInfo('ignited-minds-info')">
+                    <div id="ignited-minds-info" class="info">
+                        <p>A book encouraging young Indians to dream big and work hard to achieve their goals.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4><strong>India 2020</strong></h4>
+                    <img class="achievement-photo img-responsive" src="india_2020.jpg" alt="India 2020" onclick="toggleInfo('india-2020-info')">
+                    <div id="india-2020-info" class="info">
+                        <p>Co-authored with Y.S. Rajan, outlining a vision for India's development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research and Development Section -->
+        <section id="research-development" class="container">
+            <h1 class="page-header">Research and Development</h1>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h4><strong>Missile Development</strong></h4>
+                    <img class="achievement-photo img-responsive" src="missile_development.jpg" alt="Missile Development" onclick="toggleInfo('missile-dev-info')">
+                    <div id="missile-dev-info" class="info">
+                        <p>Dr. Kalam played a pivotal role in developing India's missile programs, including the Agni and Prithvi missiles.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4><strong>SLV-III</strong></h4>
+                    <img class="achievement-photo img-responsive" src="slv_iii.jpg" alt="SLV-III" onclick="toggleInfo('slv-iii-info')">
+                    <div id="slv-iii-info" class="info">
+                        <p>He was the Project Director for SLV-III, which successfully deployed the Rohini satellite into orbit in 1980.</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <h4><strong>Pokhran-II</strong></h4>
+                    <img class="achievement-photo img-responsive" src="pokhran_ii.jpg" alt="Pokhran-II" onclick="toggleInfo('pokhran-ii-info')">
+                    <div id="pokhran-ii-info" class="info">
+                        <p>He played a crucial role in India's nuclear tests in 1998, establishing India as a nuclear power.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="row">
+            <div class="col-md-offset-4 col-md-4 text-center">
+                <p>coded by <a target="_blank" href="https://github.com/ShibagniBhattacharjee06">ShibagniBhattacharjee/a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
