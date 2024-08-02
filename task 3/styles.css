@@ -23,7 +23,7 @@ body {
     width: 100%;
     padding: 20px;
     font-size: 1.5rem;
-    text-align: right;
+    text-align: left;
     border: none;
     background-color: #f0f0f0;
     outline: none; /* Remove default focus outline */
